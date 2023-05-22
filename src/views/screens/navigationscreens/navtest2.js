@@ -2,8 +2,8 @@ import * as React from "react";
 import { Text, View, TouchableOpacity, StyleSheet } from "react-native";
 import { TabView, SceneMap } from "react-native-tab-view";
 import Animated from "react-native-reanimated";
-import * as Schedule from "../../../code/controller/schedule/Schedule";
-import * as ConstantsSchedule from "../../../code/controller/schedule/ConstantsSchedule";
+import * as Schedule from "../../../controller/schedule/Schedule";
+import * as ConstantsSchedule from "../../../controller/schedule/ConstantsSchedule";
 // import ScrollableTabView, {
 //   DefaultTabBar,
 // } from "react-native-scrollable-tab-view";

@@ -1,7 +1,7 @@
 import * as Recurring from "./ConstantsRecurring";
 import * as Daily from "./ConstantsDaily";
 
-import * as Constants from "../../ConstantsCode";
+import * as Constants from "../../helpers/ConstantsCode";
 import * as ConstantsChores from "./ConstantsChores";
 
 //var ChoresJSON = require("../../../database/schedule/ExerciseSchedule.json");

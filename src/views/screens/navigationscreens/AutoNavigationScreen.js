@@ -10,8 +10,8 @@ import {
   WhiteboardScreenExerciseTopContainer,
 } from "../whiteboardscreens/WhiteboardScreenExercise";
 
-import * as Schedule from "../../../code/controller/schedule/Schedule";
-import * as ConstantsSchedule from "../../../code/controller/schedule/ConstantsSchedule";
+import * as Schedule from "../../../controller/schedule/Schedule";
+import * as ConstantsSchedule from "../../../controller/schedule/ConstantsSchedule";
 // import * as Constants from "../../../code/ConstantsCode";
 
 const Tab = createBottomTabNavigator();

@@ -1,7 +1,6 @@
 import * as React from "react";
 import { StyleSheet, ImageBackground, SafeAreaView, View } from "react-native";
 import PropTypes from "prop-types";
-
 // Creates the whiteboard
 export class WhiteboardScreenTemplate extends React.Component {
   render() {
@@ -10,7 +9,7 @@ export class WhiteboardScreenTemplate extends React.Component {
       <ImageBackground
         key="WhiteboardBackground"
         style={styles.background}
-        source={require("../../../assets/images/whiteboard/Whiteboard.png")}
+        source={require("../../../../public/assets/images/whiteboard/Whiteboard.png")}
       >
         <SafeAreaView style={styles.drawablearea} key="WhiteboardView">
           <View style={styles.top} key="WhiteboardTopView">

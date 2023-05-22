@@ -1,6 +1,6 @@
 import * as Exrx from "./ConstantsExrx";
 import * as Custom from "./ConstantsCustom";
-import * as Constants from "../../ConstantsCode";
+import * as Constants from "../../helpers/ConstantsCode";
 import { Image } from "react-native";
 
 /* Promises to return a dictionary as follows:

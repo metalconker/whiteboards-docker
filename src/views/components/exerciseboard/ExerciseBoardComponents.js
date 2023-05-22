@@ -9,9 +9,9 @@ import {
   WhiteboardBlankModalContainer,
 } from "../whiteboard/WhiteboardComponents";
 import PropTypes from "prop-types";
-import * as ConstantsCode from "../../../code/ConstantsCode";
+import * as ConstantsCode from "../../../helpers/ConstantsCode";
 import { whiteboard } from "../../ConstantsViews";
-import * as Exercises from "../../../code/controller/exercises/Exercises";
+import * as Exercises from "../../../controller/exercises/Exercises";
 
 export class ExerciseBoardHeaderLine extends React.Component {
   render() {

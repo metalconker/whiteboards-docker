@@ -9,9 +9,9 @@ import {
   WhiteboardScreenExerciseMainContainer,
   WhiteboardScreenExerciseTopContainer,
 } from "../whiteboardscreens/WhiteboardScreenExercise";
-import * as Schedule from "../../../code/controller/schedule/Schedule";
-import * as ScheduleConstants from "../../../code/controller/schedule/ConstantsSchedule";
-import * as Constants from "../../../code/ConstantsCode";
+import * as Schedule from "../../../controller/schedule/Schedule";
+import * as ScheduleConstants from "../../../controller/schedule/ConstantsSchedule";
+import * as Constants from "../../../helpers/ConstantsCode";
 
 const Stack = createStackNavigator();
 var ExerciseScheduleKeys = {};

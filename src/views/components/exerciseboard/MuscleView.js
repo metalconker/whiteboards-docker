@@ -4,8 +4,8 @@ import {
   MaleBodyImage,
   MuscleImages,
   Colors,
-} from "../../../code/controller/muscles/ConstantsMuscles";
-import SeparateMuscles from "../../../code/controller/muscles/Muscles";
+} from "../../../controller/muscles/ConstantsMuscles";
+import SeparateMuscles from "../../../controller/muscles/Muscles";
 import PropTypes from "prop-types";
 
 export class MuscleView extends React.Component {

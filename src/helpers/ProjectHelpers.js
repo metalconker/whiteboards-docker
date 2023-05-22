@@ -1,6 +1,7 @@
 import { Asset } from "expo-asset";
 import { Image } from "expo";
-import * as ConstantsMuscles from "../../app/code/controller/muscles/ConstantsMuscles";
+import * as ConstantsMuscles from "../controller/muscles/ConstantsMuscles";
+
 
 export function IntToDay(day)
 {
@@ -9,7 +10,7 @@ export function IntToDay(day)
 export function PreloadImages() {
   // Preloads all the images
   Asset.fromModule(
-    require("../../app/assets/images/whiteboard/Whiteboard.png")
+    require("../../public/assets/images/whiteboard/Whiteboard.png")
   ).downloadAsync();
 
   // Muscles preloader
@@ -19,7 +20,7 @@ export function PreloadImages() {
 function PreloadMuscles() {
   // Muscles preloader
   Asset.fromModule(
-    require("../../app/database/muscles/MaleBody.png")
+    require("../../public/assets/muscles/MaleBody.png")
   ).downloadAsync();
   for (var key of Object.keys(ConstantsMuscles.MuscleImages)) {
     var red = ConstantsMuscles.MuscleImages[key]["red"];

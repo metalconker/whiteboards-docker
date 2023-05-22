@@ -5,9 +5,9 @@ import {
   ExerciseBoardHeaderLine,
 } from "../../components/exerciseboard/ExerciseBoardComponents";
 import * as ConstantsViews from "../../ConstantsViews";
-import * as Schedule from "../../../code/controller/schedule/Schedule";
-import * as ScheduleConstants from "../../../code/controller/schedule/ConstantsSchedule";
-import * as Constants from "../../../code/ConstantsCode";
+import * as Schedule from "../../../controller/schedule/Schedule";
+import * as ScheduleConstants from "../../../controller/schedule/ConstantsSchedule";
+import * as Constants from "../../../helpers/ConstantsCode";
 
 export class WhiteboardScreenExerciseTopContainer extends React.Component {
   render() {
